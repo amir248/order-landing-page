@@ -184,7 +184,7 @@ section{
     position:relative;
  
 }
-.twoSection > div:nth-child(2) p:nth-child(2){
+.oneCom{
     position:absolute;
     top:130px;
     background-color: #7D6353;
@@ -196,12 +196,47 @@ section{
     justify-content: center;
     align-items:center;
 }
-.twoSection > div:nth-child(2) p:nth-child(2) > span{
-    display:block;
-width:210px;
-height:70px;
+.twoSection > div:nth-child(2) > picture:nth-child(3) > img:nth-child(1){
+    position: relative;
 }
-
+.oneCom > span{
+    display:block;
+    width:210px;
+    height:70px;
+}
+/* .twoSection > div:nth-child(2) > p:nth-child(2) */
+.twoCom{
+    position:absolute;
+    background:#726985;
+    border-radius:37px;
+    width:156px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:750px;
+}
+.threeCom{
+    width:100%;
+    max-width:319px;
+    height:50px;
+    background-color:#726985;
+    border-radius:37px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 810px;
+    /* left:770px; */
+}
+.twoCom > span{
+    width:96px;
+    color:white;
+}
+.threeCom > span{
+    width:259px;
+    color:white;
+}
 .twoSection > div:nth-child(2) > picture:nth-child(1) > img{
     float:right;
 }
