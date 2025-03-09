@@ -388,6 +388,9 @@ section{
     #pictures{
         margin-top:0;
     }
+    .centralDiv > p:nth-child(2){
+        min-height:300px;
+    }
  }
  @media(max-width:520px){
     .twoCom{
@@ -395,6 +398,9 @@ section{
     }
     .threeCom{
         top:1250px;
+    }
+    .central > div{
+        min-height:550px;
     }
  }
  @media(max-width:437px){
@@ -404,6 +410,9 @@ section{
     .threeCom{
         top:1070px;
     }
+    .central > div{
+        min-height:570px;
+    }
  }
  @media(max-width:350px){
     .twoCom{
@@ -411,5 +420,8 @@ section{
     }
     .threeCom{
         top:970px;
+    }
+    .central > div{
+        min-height:700px;
     }
  }
