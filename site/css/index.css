@@ -308,3 +308,19 @@ height:70px;
  .fourSection > div > a > div > h3 > span:nth-child(1){
     font-size:14px;
  }
+
+
+ @media(max-width:700px){
+    .icon-Person{
+        display:none;
+    }
+    .twoSection > div:nth-child(2) > picture:nth-child(1) > img:nth-child(1){
+        width:100%;
+    }
+    .twoSection > div:nth-child(2) > picture:nth-child(3) > img:nth-child(1){
+        width:100%;
+    }
+    .threeSection > div:nth-child(1) > picture:nth-child(1) > img:nth-child(1){
+        width:100%;
+    }
+ }
