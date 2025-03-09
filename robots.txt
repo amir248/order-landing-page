@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+
+Allow: /
+
+Sitemap: https://order-landing-page.qucu.ru/sitemap.xml
