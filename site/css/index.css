@@ -25,7 +25,7 @@ article{
     max-width:var(--average-width);
     display:flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 body > main > header{
@@ -82,7 +82,7 @@ body > main > header > nav > ul > li > a{
 body > main > header > nav > ul > li > a:hover{
     color:rgb(7, 77, 7);
 }
-body > main > header > nav > button{
+body > main > header > nav > a > button{
     width: 100%;
     max-width:170px;
     height:100px;
@@ -182,10 +182,11 @@ section{
     justify-content: space-between;
     align-items: center;
     position:relative;
+    flex-wrap:wrap;
 }
 .twoSection > div:nth-child(2) p:nth-child(2){
     position:absolute;
-    top:30px;
+    top:130px;
     background-color: #7D6353;
     border-radius:37px;
     width:234px;
@@ -207,3 +208,103 @@ height:70px;
 .twoSection > div:nth-child(2) > picture:nth-child(3) > img{
     float:left;
 }
+
+
+ /* Threety section  */
+ .threeSection{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    max-width:1161px;
+    min-height:650px;
+    position:relative;
+    flex-wrap:wrap;
+ }
+ .aroundV{
+    width:61px;
+    height:61px;
+    background:#43B671;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .aroundV > img{
+    width:24px;
+ }
+ .threeSection > div > button{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:232px;
+    height:77px;
+    border-radius:37px;
+    border:none;
+    position:absolute;
+    top:470px;
+    left:70px;
+ }
+ .icon-Person{
+    position:absolute;
+    top:0;
+    left:370px;
+ }
+ .threeSection > div:nth-child(2){
+    width:100%;
+    max-width:441px;
+    min-height:442px;
+ }
+ .threeSection > div:nth-child(2) > h2{
+    font-size:50px;
+ }
+
+ /* four section */
+ .fourSection{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    max-width:1161px;
+    flex-wrap:wrap;
+ }
+ .fourSection > strong{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    max-width:350px;
+    min-height:400px;
+ }
+ .fourSection > div > a{
+    text-decoration:none;
+    width:100%;
+    color:black;
+ }
+ .fourSection > div{
+    width:100%;
+    max-width:600px;
+ }
+ .fourSection > div > a > div{
+    width:100%;
+    max-width:600px;
+    min-height:152px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D8D8D8;
+ }
+ .fourSection > div > a > div > span:nth-child(1){
+    font-size:25px;
+    color:#D8D8D8;
+ }
+ .fourSection > div > a > div > h3{
+    font-size:40px;
+ }
+ .fourSection > div > a > div > h3:nth-child(2){
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+ }
+ .fourSection > div > a > div > h3 > span:nth-child(1){
+    font-size:14px;
+ }
