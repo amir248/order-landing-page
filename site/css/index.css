@@ -113,8 +113,12 @@ body > main > header > nav > a > button{
 
 .central > div > h1{
     font-size:50px;
-    color:white;
+    color:rgb(255, 236, 128);
     text-shadow: 2px 2px black;
+}
+.centralDiv > p{
+    color:green;
+    text-shadow:1px 1px black;
 }
 #pictures{
     display:flex;
@@ -346,8 +350,33 @@ section{
  .fourSection > div > a > div > h3 > span:nth-child(1){
     font-size:14px;
  }
-
-
+footer{
+    background-color: rgb(31, 31, 31);
+    width:100%;
+    max-width:1440px;
+    min-height:300px;
+    color:white;
+    text-shadow:black 1px 1px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+}
+footer > div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    max-width:1300px;
+}
+body > main > footer > div > ul > li{
+    list-style-type: none;
+}
+body > main > footer > div > ul > li > a{
+    color:white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
  @media(max-width:700px){
     .icon-Person{
         display:none;
