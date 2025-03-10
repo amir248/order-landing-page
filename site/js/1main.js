@@ -42,12 +42,23 @@ function backgruondHeader(){
         }
         resolve(onLoadFunction());
     })
-}
+};//backgruondHeader;
+function date(){
+    return new Promise((resolve)=>{
+        function showDate(){
+            let scr=document.createElement('script');
+            scr.src="site/js/date.js";
+            document.querySelector('body').append(scr);
+        }
+        resolve(showDate());
+    });
+};//date();
 
 async function main(){
     await includeHtml();
     await first();
     await three();
     await backgruondHeader();
+    await date();
 };
 main();
