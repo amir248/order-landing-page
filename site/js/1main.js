@@ -33,11 +33,21 @@ function three(){
         resolve(toGo());
     });
 };//three
+function backgruondHeader(){
+    return new Promise((resolve)=>{
+        function onLoadFunction(){
+            let script=document.createElement('script');
+            script.src="site/js/onLoadPhoto.js";
+            document.querySelector('body').append(script);
+        }
+        resolve(onLoadFunction());
+    })
+}
 
 async function main(){
     await includeHtml();
     await first();
     await three();
-
+    await backgruondHeader();
 };
 main();
