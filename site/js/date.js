@@ -9,7 +9,7 @@ let name = month[d.getMonth()];
 const year=d.getFullYear();
 console.log(year);
 
-console.log(month);
+console.log(name);
 
 let day = d.getDay();
-document.querySelector('#date').innerHTML=`${day}`+" / "+`${month}`+" / "+`${year}`;
+document.querySelector('#date').innerHTML=`${day}`+" / "+`${name}`+" / "+`${year}`;
