@@ -453,28 +453,28 @@ body > main > footer > div > ul > li > a{
  @media(max-width:700px){
     .icon-Person{
         display:none;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .twoSection > div:nth-child(2) > picture:nth-child(1) > img:nth-child(1){
         width:100%;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .twoSection{
         flex-wrap:wrap;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .twoSection > div:nth-child(2) > picture:nth-child(3) > img:nth-child(1){
         width:100%;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .threeSection > div:nth-child(1) > picture:nth-child(1) > img:nth-child(1){
         width:100%;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .oneCom{
         top:530px;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     .twoCom{
     transition: all 1s ease-out;
     top:1350px;
@@ -485,8 +485,8 @@ body > main > footer > div > ul > li > a{
     }
     .central{
         min-height:500px;
-    transition: all 1s ease-out;
-}
+        transition: all 1s ease-out;
+    }
     #pictures > picture:nth-child(1){
     transition: all 1s ease-out;
     display:none;
@@ -502,10 +502,14 @@ body > main > footer > div > ul > li > a{
     transition: all 1s ease-out;
     margin-top:0;
     }
+
     .centralDiv > p:nth-child(2){
         min-height:30px;
     transition: all 1s ease-out;
-}
+    }
+    .centralDiv > p{
+        top:0;
+    }
  }
  @media(max-width:520px){
     .twoCom{
@@ -518,7 +522,10 @@ body > main > footer > div > ul > li > a{
     }
     .central > div{
     transition: all 1s ease-out;
-    min-height:550px;
+    min-height:450px;
+    }
+    .centralDiv > p{
+        top:0;
     }
  }
  @media(max-width:437px){
@@ -530,9 +537,17 @@ body > main > footer > div > ul > li > a{
     transition: all 1s ease-out;
     top:1070px;
     }
+    #pictures{
+        display:none;
+    }
     .central > div{
+        position:unset;
+
     transition: all 1s ease-out;
-    min-height:570px;
+    min-height:470px;
+    }
+    .centralDiv > p{
+        top:0;
     }
  }
  @media(max-width:350px){
@@ -543,25 +558,20 @@ body > main > footer > div > ul > li > a{
     .threeCom{
         top:970px;
     transition: all 1s ease-out;
-}
-    .central > div{
-        min-height:700px;
-    transition: all 1s ease-out;
-}
- }
- @media(max-height:700PX){
-    header{
-        min-height:779px !important;
     }
-.central > div{
-    top:0;
- }
-}
- @media(max-height:800PX){
-    header{
-        min-height:879px !important;
+        .central > div{
+            position:unset;
+            min-height:270px;
+        transition: all 1s ease-out;
+    }
+    .centralDiv > p{
+        top:0;
+    }
+    #pictures{
+        display:none;
     }
  }
+ 
  /* @media(max-height:900PX){
     header{
         min-height:979px !important;
