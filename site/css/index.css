@@ -257,6 +257,7 @@ section{
     width:210px;
     height:70px;
     transition: all 1s ease-out;
+    font-size:14px;
 }
 /* .twoSection > div:nth-child(2) > p:nth-child(2) */
 .twoCom{
