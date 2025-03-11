@@ -152,6 +152,7 @@ body > main > header > nav > a > button{
     text-shadow:1px 1px black;
     transition: all 1s ease-out;
     background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 0 7px 7px 0;
 }
 #pictures{
     display:flex;
@@ -552,7 +553,21 @@ body > main > footer > div > ul > li > a{
     header{
         min-height:779px !important;
     }
+.central > div{
+    top:0;
  }
+}
+ @media(max-height:800PX){
+    header{
+        min-height:879px !important;
+    }
+ }
+ /* @media(max-height:900PX){
+    header{
+        min-height:979px !important;
+    }
+ } */
+
 /* start menu css style */
 #menuDiv{
     display:none;
