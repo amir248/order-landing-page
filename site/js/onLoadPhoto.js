@@ -24,6 +24,11 @@ function newPhoto(x){
             transition: all 1s ease-out;
             opacity:1;
         `;
+        
+        document.querySelector('header').style.backgroundColor='#43B671';
+
+        document.querySelector('header').style.backgroundRepeat='no-repeat';
+
         document.querySelector('#ph').style.opacity="0";
     },400);
     
