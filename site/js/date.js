@@ -1,5 +1,5 @@
 const d= new Date();
-console.log(d);
+console.log(d.getDay());
 
 const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 

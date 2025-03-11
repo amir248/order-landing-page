@@ -24,10 +24,17 @@ function three(){
     return new Promise((resolve)=>{
         function toGo(){
             setTimeout(()=>{
-                document.querySelector('body > main > header > nav').style.cssText=`
-                opacity:1;
-                transition: all 3s ease-out;
+                if(window.location.pathname=="/"){
+                    document.querySelector('body > main > header > nav').style.cssText=`
+                    opacity:1;
+                    transition: all 3s ease-out;
                 `;
+                }else{
+                    document.querySelector('body > main > article > nav').style.cssText=`
+                    opacity:1;
+                    transition: all 3s ease-out;
+                `;
+                }
             },1);
         }
         resolve(toGo());
@@ -58,7 +65,9 @@ async function main(){
     await includeHtml();
     await first();
     await three();
-    await backgruondHeader();
-    await date();
+    if(window.location.pathname=='/'){
+        await backgruondHeader();
+    }
+    // await date();
 };
 main();
