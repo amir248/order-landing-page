@@ -86,6 +86,7 @@ aside{
     color:white;
     text-shadow: 1px 1px black;
     transition: all 1s ease-out;
+    text-shadow:1px 1px black;
 }
 nav{
     width:100%;

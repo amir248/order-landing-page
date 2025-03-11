@@ -550,7 +550,7 @@ body > main > footer > div > ul > li > a{
  }
  @media(max-height:700PX){
     header{
-        min-height:770px !important;
+        min-height:779px !important;
     }
  }
 /* start menu css style */
@@ -642,5 +642,12 @@ body > main > header > nav > ul > li > fieldset:hover{
     color:white;
     text-shadow: 1px 1px black;
     transition: all 1s ease-out;
+    text-shadow:1px 1px black;
 }
  
+
+#ph{
+    font-size:73px;
+    opacity:0;
+    z-index:333;
+}

@@ -14,6 +14,8 @@ function newPhoto(x){
     `;
     setTimeout(()=>{
         document.querySelector('header').style.opacity='0';
+        document.querySelector('#ph').style.opacity="1";
+        document.querySelector('#ph').innerHTML="📸";
     },0);
     setTimeout(()=>{
         document.querySelector('header').style.cssText=`
@@ -22,6 +24,7 @@ function newPhoto(x){
             transition: all 1s ease-out;
             opacity:1;
         `;
+        document.querySelector('#ph').style.opacity="0";
     },400);
     
   

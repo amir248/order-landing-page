@@ -36,6 +36,7 @@ function menuFromLanding(){
    
 
     function openMenu(){
+        document.querySelector('body').style.overflow="hidden";
         let sheetsMenu=document.createElement('div');
         sheetsMenu.classList.add('openMenu');
         document.querySelector(`${menuList.pathMenuList}`).prepend(sheetsMenu);
@@ -53,6 +54,7 @@ function menuFromLanding(){
         document.querySelector('.openMenu').addEventListener('click',menuClose);
     }//menuOpen
     function menuClose(){
+        document.querySelector('body').style.overflow="auto";
         document.querySelector('.openMenu').style.cssText=`
             height:0vh;
             transition:all ease 1s;
