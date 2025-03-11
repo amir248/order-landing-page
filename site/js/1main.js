@@ -57,7 +57,9 @@ function date(){
             scr.src="site/js/date.js";
             document.querySelector('body').append(scr);
         }
-        resolve(showDate());
+        setTimeout(()=>{
+            resolve(showDate());
+        },300);
     });
 };//date();
 
