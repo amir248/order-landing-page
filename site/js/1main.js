@@ -68,6 +68,6 @@ async function main(){
     if(window.location.pathname=='/'){
         await backgruondHeader();
     }
-    // await date();
+    await date();
 };
 main();
