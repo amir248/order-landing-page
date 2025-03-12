@@ -44,10 +44,10 @@ function newPhoto(x){
 
 setInterval(()=>{
     if(statusbar.count>=statusbar.photo.length){
-        console.log('FF');
+        // console.log('FF');
         statusbar.count=0;
     }
     newPhoto(statusbar.photo[statusbar.count]);
     statusbar.count++;
-    console.log(statusbar.count);
+    // console.log(statusbar.count);
 },5800);

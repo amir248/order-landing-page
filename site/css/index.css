@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+#rus{
+    display:none;
+
+}
 @font-face {
     font-family: "Poppins";
     src: url("../../site/Poppins/Poppins-Regular.ttf") format("truetype");

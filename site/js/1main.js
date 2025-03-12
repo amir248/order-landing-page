@@ -62,10 +62,21 @@ function date(){
         },300);
     });
 };//date();
+function language(){
+    return new Promise((resolve)=>{
+        function changeL(){
+            let scriptL=document.createElement('script');
+            scriptL.src="site/js/changeLanguage.js";
+            document.querySelector('body').append(scriptL);
+        }
+        resolve(changeL());
+    }
+)};//languag();
 
 async function main(){
     await includeHtml();
     await first();
+    await language();
     await three();
     if(window.location.pathname=='/'){
         await backgruondHeader();

@@ -1,5 +1,5 @@
 const d= new Date();
-console.log(d.getDay());
+// console.log(d.getDay());
 
 const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
@@ -7,9 +7,9 @@ const month = ["January","February","March","April","May","June","July","August"
 let name = month[d.getMonth()];
 
 const year=d.getFullYear();
-console.log(year);
+// console.log(year);
 
-console.log(name);
+// console.log(name);
 
 let day = d.getDay();
 document.querySelector('#date').innerHTML=`${day}`+" / "+`${name}`+" / "+`${year}`;
