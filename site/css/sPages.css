@@ -161,12 +161,12 @@ nav > a > button{
     font-size:20px;
     transition: all 1s ease-out;
 }
- nav > ul > li > fieldset{
+ nav > fieldset{
     border-radius:7px;
     transition: all 1s ease-out;
     background:coral;
 }
-nav > ul > li > fieldset:hover{
+nav > fieldset:hover{
     background: rgb(255, 171, 140);
 }
 

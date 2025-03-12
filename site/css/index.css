@@ -603,12 +603,12 @@ body > main > footer > div > ul > li > a{
     margin-bottom:15px;
     transition: all 1s ease-out;
 }
-body > main > header > nav > ul > li > fieldset{
+body > main > header > nav > fieldset{
     border-radius:7px;
     transition: all 1s ease-out;
     background:coral;
 }
-body > main > header > nav > ul > li > fieldset:hover{
+body > main > header > nav > fieldset:hover{
     background: rgb(255, 171, 140);
 }
  /* menu */
