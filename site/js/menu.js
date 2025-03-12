@@ -33,8 +33,14 @@ function menuFromLanding(){
    
     document.querySelector('#menuDiv').addEventListener('click',openMenu);
 
-   
-
+   let fontSize='33px';
+    if(window.innerWidth<700){
+        fontSize="20px";
+    }else if(window.innerWidth<300){
+        fontSize="15px";
+    }else{
+        fontSize="7px";
+    }
     function openMenu(){
         document.querySelector('body').style.overflow="hidden";
         let sheetsMenu=document.createElement('div');
@@ -46,7 +52,7 @@ function menuFromLanding(){
             document.querySelector('.openMenu').style.cssText=`
                 height:100vh;
                 opacity:1;
-                font-size:33px;
+                font-size:${fontSize};
                 `;
             document.querySelector('.openMenu').style.background=`${menuList.background}`;
         },100);
