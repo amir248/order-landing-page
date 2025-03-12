@@ -30,15 +30,17 @@ main{
     align-items: flex-end;
     flex-direction: column;
     transition: all 1s ease-out;
+    background: #43B671;
 }
 article{
     width:100%;
-    max-width:var(--average-width);
+    max-width:var(--width-max);
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     transition: all 1s ease-out;
+    background-color: white;
 }
 body > main > header{
     width:100%;
@@ -676,4 +678,13 @@ body > main > header > nav > ul > li > fieldset:hover{
     font-size:73px;
     opacity:0;
     z-index:333;
+}
+
+.excellent{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size:70px;
+    top: 390px;
+    left: -150px;
+    text-shadow:2px 2px yellow;
 }
