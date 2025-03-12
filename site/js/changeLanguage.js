@@ -5,7 +5,7 @@ let eng=document.querySelector('#eng');
 console.log(rusAll.length + " "+engAll.length);
 let checkbox=document.querySelector("#LanguageCheck");
 document.querySelector("#LanguageCheck").addEventListener("click",()=>{
-    console.log('click');
+    // console.log('click');
     changeLanguageNow();
 });
 

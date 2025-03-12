@@ -596,6 +596,7 @@ body > main > footer > div > ul > li > a{
     height:3px;
     background:#43B671;
     transition: all 1s ease-out;
+    box-shadow:2px 2px black;
 }
 #menuDiv > span:nth-child(2){
     margin-top:15px;
