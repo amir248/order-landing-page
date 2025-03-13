@@ -235,11 +235,14 @@ section{
 }
 .twoSection{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position:relative;
     transition: all 1s ease-out;
- 
+}
+.twoSection > div{
+    width:100%;
+    max-width:500px;
 }
 .oneCom{
     position:absolute;
