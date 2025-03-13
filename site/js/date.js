@@ -12,4 +12,16 @@ const year=d.getFullYear();
 // console.log(name);
 
 let day = d.getDay();
-document.querySelector('#date').innerHTML=`${day}`+" / "+`${name}`+" / "+`${year}`;
+// document.querySelector('#date').innerHTML=`${day}`+" / "+`${name}`+" / "+`${year}`;
+
+
+
+
+var dateString = new Date().toLocaleString("ru-RU", { timeZone: "Asia/Tomsk" });
+var date = new Date(dateString);
+var n = date.getDay();
+console.log(n);
+if(window.location.path=="/commercialOffer"){
+    console.log('right Path');
+}
+document.querySelector('#date').innerHTML=dateString;
