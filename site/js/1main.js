@@ -73,6 +73,16 @@ function language(){
     }
 )};//languag();
 
+function intersectionObserver(){
+    return new Promise((resolve)=>{
+        function loads(){
+            let loads=document.createElement('script');
+            loads.src="site/js/intersectionObserver.js";
+            document.querySelector('body').append(loads);
+        }
+        resolve(loads());
+    }
+)};//languag();
 async function main(){
     await includeHtml();
     await first();
@@ -81,6 +91,7 @@ async function main(){
     if(window.location.pathname=='/'){
         await backgruondHeader();
     }
+    await intersectionObserver();
     await date();
 };
 main();

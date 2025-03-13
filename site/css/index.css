@@ -705,3 +705,7 @@ body > main > header > nav > fieldset:hover{
     left: -150px;
     text-shadow:2px 2px yellow;
 }
+#opacity,#opacityTwo,#opacityThree,#opacityFour,#opacityFive,#opacitySix,#opacitySeven,#opacityEight,#opacityNine,#opacityTen,#opacityEleven{
+    opacity:0;
+    transition: all 3s ease-out;
+}
