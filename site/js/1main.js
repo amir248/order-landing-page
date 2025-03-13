@@ -91,7 +91,7 @@ async function main(){
     if(window.location.pathname=='/'){
         await backgruondHeader();
     }
-    // await intersectionObserver();
+    await intersectionObserver();
     await date();
 };
 main();

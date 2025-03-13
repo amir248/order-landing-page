@@ -4,26 +4,43 @@ let boxElement;
 let prevRatio = 0.0;
 
 // Set things up
-window.addEventListener(
-  "load",
-  (event) => {
-    boxElement = document.querySelector("#opacity");
-    boxElementTwo = document.querySelector("#opacityTwo");
-    boxElementThree = document.querySelector("#opacityThree");
-    boxElementFour = document.querySelector("#opacityFour");
-    boxElementFive = document.querySelector("#opacityFive");
-    boxElementSix = document.querySelector("#opacitySix");
-    boxElementSeven = document.querySelector("#opacitySeven");
-    boxElementEight = document.querySelector("#opacityEight");
-    boxElementNine = document.querySelector("#opacityNine");
-    boxElementTen = document.querySelector("#opacityTen");
-    boxElementEleven = document.querySelector("#opacityEleven");
+// window.addEventListener(
+//   "load",
+//   (event) => {
+//     boxElement = document.querySelector("#opacity");
+//     boxElementTwo = document.querySelector("#opacityTwo");
+//     boxElementThree = document.querySelector("#opacityThree");
+//     boxElementFour = document.querySelector("#opacityFour");
+//     boxElementFive = document.querySelector("#opacityFive");
+//     boxElementSix = document.querySelector("#opacitySix");
+//     boxElementSeven = document.querySelector("#opacitySeven");
+//     boxElementEight = document.querySelector("#opacityEight");
+//     boxElementNine = document.querySelector("#opacityNine");
+//     boxElementTen = document.querySelector("#opacityTen");
+//     boxElementEleven = document.querySelector("#opacityEleven");
 
-    createObserver();
-  },
-  false,
-);
+//     createObserver();
+//   },
+//   false,
+// );
+function oK(){
+    
+        boxElement = document.querySelector("#opacity");
+        boxElementTwo = document.querySelector("#opacityTwo");
+        boxElementThree = document.querySelector("#opacityThree");
+        boxElementFour = document.querySelector("#opacityFour");
+        boxElementFive = document.querySelector("#opacityFive");
+        boxElementSix = document.querySelector("#opacitySix");
+        boxElementSeven = document.querySelector("#opacitySeven");
+        boxElementEight = document.querySelector("#opacityEight");
+        boxElementNine = document.querySelector("#opacityNine");
+        boxElementTen = document.querySelector("#opacityTen");
+        boxElementEleven = document.querySelector("#opacityEleven");
+    
+        createObserver();
 
+};//oK
+oK();
 function createObserver() {
   let observer;
 
