@@ -32,4 +32,16 @@
     <loc>https://order-landing-page.qucu.ru/?rus</loc>
     <lastmod>2025-03-14</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://order-landing-page.qucu.ru/privacy-policy</loc>
+    <lastmod>2025-03-19</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://order-landing-page.qucu.ru/public-offer</loc>
+    <lastmod>2025-03-19</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://order-landing-page.qucu.ru/?contract-for-website-development</loc>
+    <lastmod>2025-03-19</lastmod>
+  </sitemap>
 </sitemapindex>
