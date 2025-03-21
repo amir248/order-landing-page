@@ -1,6 +1,6 @@
 const statusbar={
     count: +0,
-    photo : ['site/img/DSC_8642.webp','site/img/DSC_8639.webp','site/img/DSC_8502.webp','site/img/DSC_8541.webp','site/img/DSC_8569.webp','site/img/DSC_8626.webp','site/img/DSC_8627.webp','site/img/DSC_8628.webp','site/img/DSC_8629.webp','site/img/DSC_8630.webp','site/img/DSC_8631.webp','site/img/DSC_8632.webp','site/img/DSC_8635.webp','site/img/DSC_8636.webp']
+    photo : ['site/img/DSC_8700.webp','site/img/DSC_8642.webp','site/img/DSC_8639.webp','site/img/DSC_8502.webp','site/img/DSC_8541.webp','site/img/DSC_8569.webp','site/img/DSC_8626.webp','site/img/DSC_8627.webp','site/img/DSC_8628.webp','site/img/DSC_8629.webp','site/img/DSC_8630.webp','site/img/DSC_8631.webp','site/img/DSC_8632.webp','site/img/DSC_8635.webp','site/img/DSC_8636.webp']
 };
 function newPhoto(x){
     // setTimeout(()=>{
