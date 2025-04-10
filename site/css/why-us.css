@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    max-width:1300px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+}
+main{
+    display:grid;
+
+}
+article{
+    display:block;
+}
+article > picture > img{
+    width:100%;
+    max-width:400px;
+    float:right;
+}
+body > article > picture:nth-child(5) > img{
+    float:left;
+    margin-right:27px;
+}
