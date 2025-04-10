@@ -30,7 +30,7 @@ function three(){
                     transition: all 3s ease-out;
                 `;
                 }else{
-                    document.querySelector('body > main > article > nav').style.cssText=`
+                    document.querySelector('nav').style.cssText=`
                     opacity:1;
                     transition: all 3s ease-out;
                 `;

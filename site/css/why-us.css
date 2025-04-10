@@ -2,12 +2,19 @@
     margin:0;
     padding:0;
 }
+@font-face {
+    font-family: "Poppins";
+    src: url("../../site/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
 body{
     width:100%;
     max-width:1300px;
     margin-left:auto;
     margin-right:auto;
     font-size:20px;
+    font-family: "Poppins";
 }
 main{
     display:grid;
@@ -16,12 +23,177 @@ main{
 article{
     display:block;
 }
+body > article > ul > li{
+    margin-left:27px;
+}
 article > picture > img{
     width:100%;
     max-width:400px;
     float:right;
 }
-body > article > picture:nth-child(5) > img{
+.twoIMG{
     float:left;
     margin-right:27px;
+}
+
+
+/* menu */
+.around{
+    background-color: black;
+    width:43px;
+    height:43px;
+    border-radius: 50%;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15px;
+    transition: all 1s ease-out;
+}
+@media(max-width:700px){
+   nav > ul{
+        display:none;
+    }
+    #menuDiv > span{
+        display:block;
+        width:70px;
+        height:3px;
+        background:#43B671;
+        transition: all 1s ease-out;
+        box-shadow:2px 2px black;
+    }
+    #menuDiv > span:nth-child(2){
+        margin-top:15px;
+        margin-bottom:15px;
+        transition: all 1s ease-out;
+    }
+    #but{
+        font-size:10px !important;
+    }
+    body > main:nth-child(1) > article:nth-child(1) > nav:nth-child(1){
+        font-size:10px !important;
+    }
+}
+
+ /* open menu  */
+ #menuDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    flex-direction: column;
+    transition: all 1s ease-out;
+}
+.openMenu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width:100%;
+    height:1vh;
+    background-color: rgb(241, 111, 59);
+    top:0;
+    opacity:0;
+    font-size:0;
+    position:absolute;
+    transition:ease 1s;
+    z-index:999;
+    transition: all 1s ease-out;
+}
+.openMenu > a{
+    margin:2%;
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px black;
+    transition: all 1s ease-out;
+    text-shadow:1px 1px black;
+}
+nav{
+    width:100%;
+    max-width:var(--average-width);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:100px;
+    opacity:0;
+    transition: all 1s ease-out;
+}
+nav > strong{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:270px;
+    transition: all 1s ease-out;
+    text-shadow: 1px 1px white;
+}
+nav > ul > li{
+    display: inline-block;
+    margin-right:14px;
+    transition: all 1s ease-out;
+    background:coral;
+    border-radius:7px;
+}
+nav > ul > li:hover{
+    background:rgb(255, 155, 119);
+}
+nav > ul{
+    width:100%;
+    max-width:700px;
+    transition: all 1s ease-out;
+}
+nav > ul > li > a{
+    text-decoration:none;
+    color:green;
+    font-size:20px;
+    transition: all 1s ease-out;
+}
+nav > ul > li > a:hover{
+    color:rgb(7, 77, 7);
+    transition: all 1s ease-out;
+}
+nav > a > button{
+    width: 100%;
+    max-width:170px;
+    height:100px;
+    border-radius: 0 0 0 37px;
+    border:none;
+    background-color: rgb(240, 225, 193);
+    color:rgb(7, 77, 7);
+    font-size:20px;
+    transition: all 1s ease-out;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(31, 31, 31);
+    width:100%;
+    max-width:1440px;
+    min-height:300px;
+    color:white;
+    text-shadow:black 1px 1px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    transition: all 1s ease-out;
+}
+footer > div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    max-width:1300px;
+    transition: all 1s ease-out;
+}
+body > main > footer > div > ul > li{
+    list-style-type: none;
+    transition: all 1s ease-out;
+}
+body > main > footer > div > ul > li > a{
+    color:white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    transition: all 1s ease-out;
 }
