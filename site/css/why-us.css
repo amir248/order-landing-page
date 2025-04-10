@@ -197,3 +197,13 @@ body > main > footer > div > ul > li > a{
     text-decoration: none;
     transition: all 1s ease-out;
 }
+footer > div > ul > li{
+    list-style-type: none;
+    transition: all 1s ease-out;
+}
+footer > div > ul > li > a{
+    color:white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    transition: all 1s ease-out;
+}
